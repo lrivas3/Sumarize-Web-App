@@ -1,0 +1,28 @@
+my-app/
+├── frontend/
+│   ├── src/
+│   ├── node_modules/
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── ...
+├── backend/
+│   ├── pdf_extraction/
+│   │   ├── app.py
+│   │   ├── requirements.txt
+│   │   ├── Dockerfile
+│   │   ├── tests/
+│   │   └── ...
+│   ├── nlp/
+│   │   ├── app.py
+│   │   ├── requirements.txt
+│   │   ├── Dockerfile
+│   │   ├── tests/
+│   │   └── ...
+│   └── shared/
+│       ├── models/
+│       ├── utils/
+│       └── ...
+├── docker-compose.yml
+├── README.md
+└── ...
+
